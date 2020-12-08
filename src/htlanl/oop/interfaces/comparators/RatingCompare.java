@@ -11,5 +11,8 @@ public class RatingCompare implements Comparator<Movie> {
         if (m1.getRating() > m2.getRating()) return 1;
         if (m1.getRating() < m2.getRating()) return -1;
         return 0;
+
+        // More efficient method
+        // Double.compare(m1.getRating(), m2.getRating());
     }
 }

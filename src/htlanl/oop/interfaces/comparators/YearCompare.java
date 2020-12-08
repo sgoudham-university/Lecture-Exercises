@@ -11,5 +11,8 @@ public class YearCompare implements Comparator<Movie> {
         if (m1.getYear() > m2.getYear()) return 1;
         if (m1.getYear() < m2.getYear()) return -1;
         return 0;
+
+        // More efficient method
+        // Integer.compare(m1.getYear(), m2.getYear());
     }
 }
