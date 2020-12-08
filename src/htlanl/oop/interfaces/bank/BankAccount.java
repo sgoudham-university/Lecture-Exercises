@@ -25,8 +25,4 @@ public class BankAccount implements Account {
         System.out.println("Your Current Bank Balance is: " + balance);
     }
 
-//    Not sure if this would work
-//    public int compareTo(BankAccount bankAccount) {
-//        return (int) (this.balance - bankAccount.balance);
-//    }
 }
